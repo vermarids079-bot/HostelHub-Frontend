@@ -17,7 +17,7 @@ function NoticeBoard() {
 
             const res = await axios.get(
 
-                "http://localhost:5000/api/notices/all"
+                "https://hostelhub-backend-sldr.onrender.com/api/notices/all"
 
             );
 

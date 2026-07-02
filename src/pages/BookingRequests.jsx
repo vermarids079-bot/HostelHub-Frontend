@@ -14,7 +14,7 @@ function BookingRequests() {
         try {
 
             const res = await axios.get(
-                "http://localhost:5000/api/bookings/all"
+                "https://hostelhub-backend-sldr.onrender.com/api/bookings/all"
             );
 
             setBookings(res.data);
@@ -43,7 +43,7 @@ function BookingRequests() {
 
             const res = await axios.put(
 
-                `http://localhost:5000/api/bookings/approve/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/bookings/approve/${id}`
 
             );
 
@@ -75,7 +75,7 @@ function BookingRequests() {
 
             const res = await axios.put(
 
-                `http://localhost:5000/api/bookings/reject/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/bookings/reject/${id}`
 
             );
 

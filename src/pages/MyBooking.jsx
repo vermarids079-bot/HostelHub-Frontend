@@ -26,7 +26,7 @@ function MyBooking() {
 
             const res = await axios.get(
 
-                `http://localhost:5000/api/bookings/student/${student._id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/bookings/student/${student._id}`
 
             );
 

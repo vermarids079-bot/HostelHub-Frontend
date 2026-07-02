@@ -26,7 +26,7 @@ function CareDesk() {
 
             const res = await axios.get(
 
-                `http://localhost:5000/api/complaints/student/${student._id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/complaints/student/${student._id}`
 
             );
 
@@ -64,7 +64,7 @@ function CareDesk() {
 
             const res = await axios.post(
 
-                "http://localhost:5000/api/complaints/create",
+                "https://hostelhub-backend-sldr.onrender.com/api/complaints/create",
 
                 complaintData
 

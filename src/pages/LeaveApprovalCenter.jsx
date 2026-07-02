@@ -17,7 +17,7 @@ function LeaveApprovalCenter() {
 
             const res = await axios.get(
 
-                "http://localhost:5000/api/leaves/all"
+                "https://hostelhub-backend-sldr.onrender.com/api/leaves/all"
 
             );
 
@@ -39,7 +39,7 @@ function LeaveApprovalCenter() {
 
             const res = await axios.put(
 
-                `http://localhost:5000/api/leaves/approve/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/leaves/approve/${id}`
 
             );
 
@@ -69,7 +69,7 @@ function LeaveApprovalCenter() {
 
             const res = await axios.put(
 
-                `http://localhost:5000/api/leaves/reject/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/leaves/reject/${id}`
 
             );
 

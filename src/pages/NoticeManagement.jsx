@@ -21,7 +21,7 @@ function NoticeManagement() {
 
             const res = await axios.get(
 
-                "http://localhost:5000/api/notices/all"
+                "https://hostelhub-backend-sldr.onrender.com/api/notices/all"
 
             );
 
@@ -45,7 +45,7 @@ function NoticeManagement() {
 
             const res = await axios.post(
 
-                "http://localhost:5000/api/notices/add",
+                "https://hostelhub-backend-sldr.onrender.com/api/notices/add",
 
                 {
 
@@ -81,7 +81,7 @@ function NoticeManagement() {
 
             const res = await axios.delete(
 
-                `http://localhost:5000/api/notices/delete/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/notices/delete/${id}`
 
             );
 

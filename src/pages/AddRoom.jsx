@@ -31,7 +31,7 @@ function AddRoom() {
 
             const res = await axios.post(
 
-                "http://localhost:5000/api/rooms/add",
+                "https://hostelhub-backend-sldr.onrender.com/api/rooms/add",
 
                 room
 

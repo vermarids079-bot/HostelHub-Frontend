@@ -16,7 +16,7 @@ function ResolutionCenter() {
             setLoading(true);
 
             const res = await axios.get(
-                "http://localhost:5000/api/complaints/all"
+                "https://hostelhub-backend-sldr.onrender.com/api/complaints/all"
             );
 
             setComplaints(res.data);
@@ -34,7 +34,7 @@ function ResolutionCenter() {
     const resolveComplaint = async (id) => {
         try {
             const res = await axios.put(
-                `http://localhost:5000/api/complaints/resolve/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/complaints/resolve/${id}`
             );
 
             alert(res.data.message);
@@ -50,7 +50,7 @@ function ResolutionCenter() {
     const rejectComplaint = async (id) => {
         try {
             const res = await axios.put(
-                `http://localhost:5000/api/complaints/reject/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/complaints/reject/${id}`
             );
 
             alert(res.data.message);

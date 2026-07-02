@@ -22,7 +22,7 @@ function AnalyticsCenter() {
     const fetchAnalytics = async () => {
         try {
             const res = await axios.get(
-                "http://localhost:5000/api/analytics"
+                "https://hostelhub-backend-sldr.onrender.com/api/analytics"
             );
 
             setAnalytics({

@@ -11,7 +11,7 @@ function RoomMatrix() {
         try {
 
             const res = await axios.get(
-                "http://localhost:5000/api/rooms/all"
+                "https://hostelhub-backend-sldr.onrender.com/api/rooms/all"
             );
 
             setRooms(res.data);
@@ -41,7 +41,7 @@ function RoomMatrix() {
         try {
 
             const res = await axios.delete(
-                `http://localhost:5000/api/rooms/delete/${id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/rooms/delete/${id}`
             );
 
             alert(res.data.message);
@@ -74,7 +74,7 @@ function RoomMatrix() {
 
             const res = await axios.put(
 
-                `http://localhost:5000/api/rooms/update/${editingRoom._id}`,
+                `https://hostelhub-backend-sldr.onrender.com/api/rooms/update/${editingRoom._id}`,
 
                 editingRoom
 

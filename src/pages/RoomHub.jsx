@@ -26,7 +26,7 @@ function RoomHub() {
         try {
 
             const res = await axios.get(
-                "http://localhost:5000/api/rooms/all"
+                "https://hostelhub-backend-sldr.onrender.com/api/rooms/all"
             );
 
             const availableRooms = res.data.filter(
@@ -63,7 +63,7 @@ function RoomHub() {
 
             const res = await axios.get(
 
-                `http://localhost:5000/api/bookings/student-status/${student._id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/bookings/student-status/${student._id}`
 
             );
 
@@ -141,7 +141,7 @@ function RoomHub() {
 
             const res = await axios.post(
 
-                "http://localhost:5000/api/bookings/create",
+                "https://hostelhub-backend-sldr.onrender.com/api/bookings/create",
 
                 bookingData
 

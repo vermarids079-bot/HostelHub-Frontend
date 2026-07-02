@@ -32,7 +32,7 @@ const handleSave = async () => {
 
         const res = await axios.put(
 
-            `http://localhost:5000/api/profile/update/${student._id}`,
+            `https://hostelhub-backend-sldr.onrender.com/api/profile/update/${student._id}`,
 
             profile
 

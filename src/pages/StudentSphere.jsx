@@ -12,7 +12,7 @@ function StudentSphere() {
       setLoading(true);
 
       const { data } = await axios.get(
-        "http://localhost:5000/api/auth/students"
+        "https://hostelhub-backend-sldr.onrender.com/api/auth/students"
       );
 
       if (data.success) {
@@ -52,7 +52,7 @@ function StudentSphere() {
 
     try {
       await axios.delete(
-        `http://localhost:5000/api/auth/student/${id}`
+        `https://hostelhub-backend-sldr.onrender.com/api/auth/student/${id}`
       );
 
       setStudents((prev) => prev.filter((student) => student._id !== id));

@@ -27,7 +27,7 @@ function LeaveEase() {
 
             const res = await axios.get(
 
-                `http://localhost:5000/api/leaves/student/${student._id}`
+                `https://hostelhub-backend-sldr.onrender.com/api/leaves/student/${student._id}`
 
             );
 
@@ -67,7 +67,7 @@ function LeaveEase() {
 
             const res = await axios.post(
 
-                "http://localhost:5000/api/leaves/apply",
+                "https://hostelhub-backend-sldr.onrender.com/api/leaves/apply",
 
                 leaveData
 
