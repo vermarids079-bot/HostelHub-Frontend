@@ -1,85 +1,164 @@
 # 🏠 HostelHub – Smart Hostel Management System
 
-A modern MERN Stack based Hostel Management System that simplifies hostel administration and student services through a secure, responsive web application.
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-Express-green?logo=node.js)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-success?logo=mongodb)
+![Render](https://img.shields.io/badge/Deployment-Render-purple)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
-## 🌐 Live Demo
+# 📖 Overview
 
-### Frontend
+HostelHub is a full-stack MERN (MongoDB, Express.js, React.js, Node.js) based Hostel Management System developed to simplify hostel administration and improve the student accommodation experience.
+
+The system provides separate dashboards for Students and Administrators with secure authentication, room booking, complaint management, leave approval, notices, analytics, and profile management.
+
+---
+
+# 🌐 Live Demo
+
+## Frontend
+
 https://hostelhub-frontend-uvwk.onrender.com
 
-### Backend API
+## Backend
+
 https://hostelhub-backend-sldr.onrender.com
 
 ---
 
-# 📌 Features
+# ✨ Features
 
-## 👨‍🎓 Student Module
+## 👨‍🎓 Student
 
-- 🔐 Secure Registration & Login
-- 👤 Profile Management
-- 🏢 View Available Rooms
-- 🛏️ Book Hostel Rooms
-- 📋 My Bookings
-- 📝 Apply Leave
-- ⚠️ Raise Complaints
-- 📢 View Notices
-
----
-
-## 👨‍💼 Admin Module
-
-- 📊 Dashboard
-- 🏢 Add / Update / Delete Rooms
-- 👨‍🎓 Student Management
-- 📋 Booking Management
-- 📝 Leave Approval
-- ⚠️ Complaint Resolution
-- 📢 Notice Management
-- 📈 Analytics Dashboard
+- Student Registration
+- Secure Login
+- Profile Management
+- View Available Rooms
+- Book Hostel Rooms
+- View Booking Status
+- Apply Leave
+- Raise Complaints
+- View Notices
 
 ---
 
-# 🛠️ Tech Stack
+## 👨‍💼 Admin
 
-## Frontend
+- Admin Dashboard
+- Student Management
+- Room Management
+- Booking Management
+- Leave Approval
+- Complaint Resolution
+- Notice Management
+- Analytics Dashboard
+
+---
+
+# 🛠 Tech Stack
+
+### Frontend
 
 - React.js
 - React Router DOM
 - Axios
-- Chart.js
 - Bootstrap
+- Bootstrap Icons
 - SweetAlert2
+- Chart.js
 
-## Backend
+### Backend
 
 - Node.js
 - Express.js
 - MongoDB Atlas
-- JWT Authentication
 - Mongoose
+- JWT Authentication
+- bcrypt.js
 
-## Deployment
+### Deployment
 
-- Render (Frontend)
-- Render (Backend)
+- Render
 - MongoDB Atlas
+- GitHub
 
 ---
 
-# 📂 Folder Structure
+# 📂 Project Structure
 
 ```
-src/
+HostelHub-Frontend
 │
-├── components/
-├── pages/
-├── assets/
-├── App.js
-├── index.js
+├── public
+├── screenshots
+├── src
+│   ├── components
+│   ├── pages
+│   ├── assets
+│   ├── App.js
+│   └── index.js
+│
+├── package.json
+└── README.md
 ```
+
+---
+
+# 📸 Project Screenshots
+
+## 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+---
+
+## 👨‍🎓 Student Dashboard
+
+![Student Dashboard](screenshots/studentdashboard.png)
+
+---
+
+## 👨‍💼 Admin Dashboard
+
+![Admin Dashboard](screenshots/admindashboard.png)
+
+---
+
+## 👤 Profile
+
+![Profile](screenshots/profile.png)
+
+---
+
+## 📋 Student Management
+
+![Student Management](screenshots/studentmanagement.png)
+
+---
+
+## 🛏 Booking Management
+
+![Booking](screenshots/booking.png)
+
+---
+
+## 📝 Leave Management
+
+![Leave](screenshots/leave.png)
+
+---
+
+## ⚠ Complaint Management
+
+![Complaint](screenshots/complaint.png)
+
+---
+
+## 📊 Analytics Dashboard
+
+![Analytics](screenshots/analytics.png)
 
 ---
 
@@ -91,13 +170,19 @@ Clone the repository
 git clone https://github.com/vermarids079-bot/HostelHub-Frontend.git
 ```
 
+Move into the project directory
+
+```bash
+cd smart-hostel-management
+```
+
 Install dependencies
 
 ```bash
 npm install
 ```
 
-Run locally
+Start the project
 
 ```bash
 npm start
@@ -105,18 +190,48 @@ npm start
 
 ---
 
-# 🔗 API
+# 🔗 Backend API
 
-Backend
+Backend URL
 
 https://hostelhub-backend-sldr.onrender.com
 
 ---
 
-# 👩‍💻 Developed By
+# 🔐 Authentication
 
-**Riddhima Verma**
+The project implements:
 
-B.Tech Student
+- JWT Authentication
+- Password Encryption using bcrypt.js
+- Protected Routes
+- Role-Based Access Control
+
+---
+
+# 🚀 Future Enhancements
+
+- Email Notifications
+- QR Code Room Entry
+- Hostel Fee Management
+- Mobile Application
+- AI Chatbot
+- Attendance System
+
+---
+
+# 👩‍💻 Developer
+
+### Riddhima Verma
+
+Bachelor of Technology
 
 MERN Stack Developer
+
+GitHub:
+
+https://github.com/vermarids079-bot
+
+---
+
+# ⭐ If you like this project, don't forget to give it a Star!
