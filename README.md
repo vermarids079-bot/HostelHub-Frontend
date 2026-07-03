@@ -110,37 +110,37 @@ HostelHub-Frontend
 
 ## 🔐 Login Page
 
-![Login](screenshots/login.png)
+![Login](screenshots/Login.png)
 
 ---
 
 ## 👨‍🎓 Student Dashboard
 
-![Student Dashboard](screenshots/studentdashboard.png)
+![Student Dashboard](screenshots/StudentDashboard.png)
 
 ---
 
 ## 👨‍💼 Admin Dashboard
 
-![Admin Dashboard](screenshots/admindashboard.png)
+![Admin Dashboard](screenshots/AdminDashboard.png)
 
 ---
 
 ## 👤 Profile
 
-![Profile](screenshots/profile.png)
+![Profile](screenshots/Profile.png)
 
 ---
 
 ## 📋 Student Management
 
-![Student Management](screenshots/studentmanagement.png)
+![Student Management](screenshots/StudentManagement.png)
 
 ---
 
 ## 🛏 Booking Management
 
-![Booking](screenshots/booking.png)
+![Booking](screenshots/Booking.png)
 
 ---
 
