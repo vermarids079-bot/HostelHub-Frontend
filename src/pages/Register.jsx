@@ -114,7 +114,7 @@ function Register() {
 
                 <h2 className="welcome-title">
 
-                    Create Account 🚀
+                    Create Account 
 
                 </h2>
 
